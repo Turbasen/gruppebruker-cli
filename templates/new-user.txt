@@ -1,0 +1,9 @@
+<h3>Hei {{ NAME }},</h3>
+
+<p>Vedlagt følger brukernavn og passord for innlogging til UT.no. Din bruker er knyttet til <b>{{ GROUP }}</b> slik at du kan legge inn og administrere deres turer på UT.</p><br>
+
+<p>Brukernavn: <b>{{ USER }}</b></p>
+<p>Passord: <b>{{ PASSWORD }}</b></p><br>
+
+<p>Med vennlig hilsen,<br>
+UT.no</p>

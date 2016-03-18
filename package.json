@@ -1,0 +1,33 @@
+{
+  "name": "@turbasen/gruppebruker",
+  "version": "1.0.0",
+  "description": "CLI for creating new user group users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "user": "node user.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Turbasen/gruppebruker.git"
+  },
+  "keywords": [
+    "Nasjonal",
+    "Turbase",
+    "CLI",
+    "User"
+  ],
+  "author": "Hans Kristian Flaatten <hans.kristian.flaatten@dnt.no>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Turbasen/gruppebruker/issues"
+  },
+  "homepage": "https://github.com/Turbasen/gruppebruker#readme",
+  "dependencies": {
+    "nomnom": "^1.8.1",
+    "passord": "^1.1.0",
+    "sendgrid": "^2.0.0",
+    "turbasen": "^1.6.1",
+    "turbasen-auth": "^2.0.0"
+  }
+}

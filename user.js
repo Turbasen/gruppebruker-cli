@@ -1,6 +1,7 @@
 'use strict';
 
 const opts = require('nomnom')
+  .script('user')
   .option('group', {
     abbr: 'g',
     help: 'Group ID (Nasjonal Turbase)',
@@ -28,7 +29,7 @@ const opts = require('nomnom')
        return 'Version 1.0.0';
     }
   })
-  .help('Utility to create user group users')
+  .help('Create new user for given user group')
   .parse();
 
 process.env.NTB_API_ENV = opts['ntb-api-env'];
